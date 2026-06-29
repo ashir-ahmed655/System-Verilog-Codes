@@ -44,7 +44,6 @@ module tb_dff;
         $finish; 
     end
 
-
 initial begin
         $dumpfile("dump.vcd"); 
         $dumpvars(0, tb_dff);  
